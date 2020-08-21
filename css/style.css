@@ -1,0 +1,393 @@
+body{
+                margin:auto 5%; 
+                background-color: white;
+                font-family: 'Antic Slab', serif;
+                font-family: 'Mulish', sans-serif;
+            }
+            #wraffer{
+                background-color:white;
+                width:100%;
+                height:2029px;
+                
+            }
+            
+            #header_wraffer{
+                background-color:white;
+                width:100%;
+                height:150px; 
+                float:left; 
+            }
+            
+            #header_wraffer_logo{
+                background-color:#20B2AA;
+                width:100%;
+                height:150px;
+                float:left;
+                margin-right:0.3%; 
+                text-align: center;
+                border-radius: 15px;
+            }
+
+
+           
+            
+            #menu{
+                background-color:white;
+                width:100%;
+                height:100px;
+                margin-top:3px; 
+                margin-bottom:3px; 
+               float:left; 
+            }
+            #menu ul{
+                margin:0px;
+                padding:20px; 
+            }
+            #menu ul li{
+                list-style-type:none;
+                background-color:#708090;
+                margin-right:0.3%;
+                width:17%; 
+                float:left; 
+                height:30px;
+                text-align:center;
+                padding:1%; 
+               border-radius:20px 40px;
+               transition:all 1s; 
+            }
+            #menu ul li a{
+                text-decoration:none;
+                color:white; 
+            }
+            
+            #menu ul li:hover{
+                background-color:#4682B4;
+                border-radius:40px 20px; 
+                transition:all 2s; 
+            }
+            #sub-menu-1{
+                display: none;
+            }
+              
+              #menu ul li:hover #sub-menu-1
+              {
+                display: block;
+                position: absolute;
+                background: #708090;
+                margin-top: 15px;
+                margin-left: -15px;
+              }
+            #menu ul li:hover #sub-menu-1 ul{
+                display: block;
+                margin: 10px;
+            }
+            #menu ul li:hover #sub-menu-1 ul li{
+                float: left;
+                width: 50px;
+                padding: 5px;
+                border-bottom: 1px  #fff;
+                background: transparent;
+                border-radius: 20px 40px;
+
+                text-align: center;
+            }
+            #menu ul li:hover #sub-menu-1 ul li:last-child{
+                border-bottom: none;
+            }
+            #menu ul li:hover #sub-menu-1 ul li a:hover{
+                color: blue;
+            }
+            #menu .fa{
+                margin-right: 8px;
+            }
+            #content_wraffer{
+                background-color:white;
+                width:100%;
+                height: 450px;
+                float:left; 
+            }
+            
+            #content_left{
+                background-color:white;
+                width:54%;
+                
+                height:450px;
+                float:left;
+                
+            }
+
+
+            
+            #content_left p{
+                font-family: 'Antic Slab', serif;
+                font-family: 'Mulish', sans-serif;
+                 font-weight: 400px;
+                 font-size: 20px;
+                 text-align: :center;
+                padding-top: 15px;
+                margin: 6% 
+            }
+            
+             #content_mid{
+                background-color::white;
+                width:20.4%;
+                height:450px;
+                float:left;
+                margin-left:0.3%; 
+                margin-right:0.3%; 
+            }
+            #content_right{
+                background-color::white;
+                width:25%;
+                height:450px;
+                float:left; 
+            }
+            #content_wraffer_1{
+                background-color:white;
+                width:100%;
+                height: 450px;
+                float:left; 
+            }
+            
+            
+            
+             #content_left_1{
+                background-color:white;
+                width:20.4%;
+                height:450px;
+                float:left;
+                margin-left:0.3%; 
+                margin-right:0.3%; 
+            }
+            #content_mid_1{
+                background-color:white;
+                width:25%;
+                height:450px;
+                float:left; 
+            }
+            #content_right_1{
+                background-color:white;
+                width:54%;
+                
+                height:450px;
+                float:left;
+                
+            }
+           
+              
+            
+            #content_right_1 p{
+                font-family: 'Antic Slab', serif;
+                font-family: 'Mulish', sans-serif;
+                 font-weight: 400px;
+                 font-size: 20px;
+                 text-align: :center;
+                padding-top: 15px; 
+                margin: 8%
+            }
+            
+            #content_wraffer_2{
+                background-color:white;
+                width:100%;
+                height: 250px;
+                float:left; 
+            }
+            
+            #content_left_2{
+                background-color:#808080;
+                width:34%;
+                
+                height:250px;
+                float:left;
+                
+            }
+
+
+            
+            
+            
+            
+             #content_mid_2{
+                background-color:#808080;
+                width:33%;
+                height:250px;
+                float:left;
+                margin-left:0.3%; 
+                margin-right:0.3%; 
+            }
+            #content_right_2{
+                background-color:#808080;
+                width:32.4%;
+                height:250px;
+                float:left; 
+            }
+             #content_wraffer_3{
+                background-color:white;
+                width:100%;
+                height: 150px;
+                float:left; 
+            }
+            
+            #content_left_3{
+                background-color:white;
+                width:34%;
+                
+                height:150px;
+                float:left;
+                
+            }
+
+            #content_left_3 p{
+                font-family: 'Antic Slab', serif;
+                font-family: 'Mulish', sans-serif;
+                 font-weight: 400px;
+                 font-size: 15px;
+                 text-align: :center;
+                padding-top: 15px; 
+                margin: 4%;
+            }
+            
+            
+            
+            
+             #content_mid_3{
+                background-color:white;
+                width:33%;
+                height:150px;
+                float:left;
+                margin-left:0.3%; 
+                margin-right:0.3%; 
+            }
+            #content_mid_3 p{
+                font-family: 'Antic Slab', serif;
+                font-family: 'Mulish', sans-serif;
+                 font-weight: 400px;
+                 font-size: 15px;
+                 text-align: :center;
+                padding-top: 15px;
+                margin: 4%; 
+            }
+            #content_right_3{
+                background-color:white;
+                width:32.4%;
+                height:150px;
+                float:left; 
+            }
+            #content_right_3 p{
+                font-family: 'Antic Slab', serif;
+                font-family: 'Mulish', sans-serif;
+                 font-weight: 400px;
+                 font-size: 15px;
+                 text-align: :center;
+                padding-top: 15px;
+                margin: 4% 
+            }
+            #content_wraffer_4{
+                background-color:white;
+                width:100%;
+                height: 200px;
+                float:left; 
+            }
+            
+            #content_left_4{
+                background-color:#808080;
+                width:34%;
+                
+                height:200px;
+                float:left;
+                
+            }
+
+
+            
+            
+            
+            
+             #content_mid_4{
+                background-color:#808080;
+                width:33%;
+                height:200px;
+                float:left;
+                margin-left:0.3%; 
+                margin-right:0.3%; 
+            }
+            #content_right_4{
+                background-color:#808080;
+                width:32.4%;
+                height:200px;
+                float:left; 
+            }
+            #content_wraffer_5{
+                background-color:white;
+                width:100%;
+                height: 150px;
+                float:left; 
+            }
+            
+            #content_left_5{
+                background-color:white;
+                width:34%;
+                
+                height:150px;
+                float:left;
+                
+            }
+
+            #content_left_5 p{
+                font-family: 'Antic Slab', serif;
+                font-family: 'Mulish', sans-serif;
+                 font-weight: 400px;
+                 font-size: 15px;
+                 text-align: :center;
+                padding-top: 15px; 
+                margin: 4%;
+            }
+            
+            
+            
+            
+             #content_mid_5{
+                background-color:white;
+                width:33%;
+                height:150px;
+                float:left;
+                margin-left:0.3%; 
+                margin-right:0.3%; 
+            }
+            #content_mid_5 p{
+                font-family: 'Antic Slab', serif;
+                font-family: 'Mulish', sans-serif;
+                 font-weight: 400px;
+                 font-size: 15px;
+                 text-align: :center;
+                padding-top: 15px;
+                margin: 4%; 
+            }
+            #content_right_5{
+                background-color:white;
+                width:32.4%;
+                height:150px;
+                float:left; 
+            }
+            #content_right_5 p{
+                font-family: 'Antic Slab', serif;
+                font-family: 'Mulish', sans-serif;
+                 font-weight: 400px;
+                 font-size: 15px;
+                 text-align: :center;
+                padding-top: 15px;
+                margin: 4% 
+            }
+            
+            #footer{
+                background-color:#20B2AA;
+                width:100%;
+                height:120px;
+                font-size: 20px;
+                float:left;
+                margin-top:3px;
+                border-radius: 15px; 
+
+
+                
+            }
